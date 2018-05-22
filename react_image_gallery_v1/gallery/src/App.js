@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import './App.css';
 
@@ -13,6 +13,7 @@ import Cats from './Cats.js';
 import Sunsets from './Sunsets.js';
 import Dogs from './Dogs.js';
 import SearchForm from './SearchForm';
+import Nav from './Nav';
 
 const App = () =>{
 
@@ -25,6 +26,7 @@ const App = () =>{
           <Route path="/sunsets" render={() => (<Sunsets api={apiKey} />)} />
           <Route path="/dogs" render={() => (<Dogs api={apiKey} />)} />
           <Route component={NoPics} />
+          <Redirect to="/" />
         </Switch>
       </div>
     </BrowserRouter>

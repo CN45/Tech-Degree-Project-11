@@ -54,7 +54,7 @@ componentWillReceiveProps(newProps) {
 
 
 
-                 // Include a 404-like error route that displays when a URL path does not match a route.
+                 // Include a 404-like error route when a URL path does not match a route.
 
              if (this.state.photos.length === 0 && this.state.keyword !== '') {
                  return (<NoPics />);

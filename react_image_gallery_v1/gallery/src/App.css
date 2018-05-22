@@ -1,3 +1,4 @@
+
 body {
   text-align: center;
   font-family: 'Helvetica', sans-serif;
@@ -16,7 +17,7 @@ a {
   text-decoration: none;
 }
 .search-form {
-  max-width: 460px;
+  max-width: 470px;
   display: flex;
   margin: 0 auto 32px;
 }
@@ -58,7 +59,6 @@ input {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  -ms-align-items: flex-start;
   align-items: flex-start;
 }
 .photo-container ul li {
@@ -70,7 +70,7 @@ input {
 .photo-container ul img {
   width: 100%;
   transform: scale(1.25);
-  transition: transform 1.25s;
+  transition: transform 1.35s;
 }
 .photo-container li:hover img {
   transform: scale(1.85);
@@ -79,10 +79,7 @@ input {
   width: 100%;
 }
 
-.icn-error {
-  font-size: 3.2em;
-  margin-bottom: .25em;
-}
+
 
 .not-found {
   text-align: center;
@@ -112,7 +109,7 @@ input {
     padding-top: 5em;
   }
   .container {
-    max-width: 960px;
+    max-width: 970px;
     margin: auto;
   }
   .main-nav ul {
