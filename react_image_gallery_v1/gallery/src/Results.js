@@ -3,7 +3,7 @@ import axios from 'axios';
 import PhotoList from './PhotoList';
 import NoPics from './NoPics';
 
-
+//In constuctor set this.state equal to the object
 class Results extends Component {
 constructor() {
   super();
@@ -14,7 +14,7 @@ constructor() {
     loading: true
   }
 }
-
+//Fetch the data from flickr api
 componentDidMount() {
 if (this.props.query !== "") {
 
@@ -54,7 +54,7 @@ componentWillReceiveProps(newProps) {
 
 
 
-                 // Include a 404-like error route when a URL path does not match a route.
+                 // 404 error route when a URL path does not match a route.
 
              if (this.state.photos.length === 0 && this.state.keyword !== '') {
                  return (<NoPics />);

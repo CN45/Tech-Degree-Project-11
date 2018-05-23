@@ -1,10 +1,10 @@
-
 body {
   text-align: center;
   font-family: 'Helvetica', sans-serif;
   color: #3f4850;
 }
 h2 {
+  font-family: Century Gothic;
   font-size: 2em;
   margin: 52px 0 40px;
   text-transform: capitalize;
@@ -78,8 +78,6 @@ input {
 .photo-container .not-found {
   width: 100%;
 }
-
-
 
 .not-found {
   text-align: center;

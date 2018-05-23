@@ -1,7 +1,8 @@
 import React from 'react';
 import Pic from './Pic';
 
-
+//Display photos each with unique key
+//server, photo id, photo secret are all from the flickr api docs
 
 
 const PhotoList = (props) => {
