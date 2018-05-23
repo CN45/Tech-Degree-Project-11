@@ -8,5 +8,4 @@ const Dogs = (props) => {
     );
 }
 
-
 export default Dogs;

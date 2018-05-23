@@ -4,7 +4,7 @@ import Nav from './Nav';
 
 
 export default class SearchForm extends Component {
-//search field 
+//search field
 
       state = {
           query: '',
