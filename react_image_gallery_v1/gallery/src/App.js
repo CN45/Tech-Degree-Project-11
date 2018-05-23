@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import './App.css';
 
-
+//deleted search form
 //import api key and import the components
 import NoResults from './NoResults';
 
