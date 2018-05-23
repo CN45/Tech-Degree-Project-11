@@ -23,15 +23,16 @@ const App = () =>{
     <BrowserRouter>
       <div className="container">
                 <Header />
-                <SearchForm />
+
           <Switch>
           <Route exact path="/" render={() => (<SearchForm api={apiKey} />)}/>
+          <SearchForm />
           <Route path="/cats" render={() => (<Cats api={apiKey} />)} />
           <Route path="/sunsets" render={() => (<Sunsets api={apiKey} />)} />
           <Route path="/dogs" render={() => (<Dogs api={apiKey} />)} />
           <Route component={NoPics} />
           <Redirect to="/" />
-          </Switch>
+        </Switch>
       </div>
     </BrowserRouter>
     );
