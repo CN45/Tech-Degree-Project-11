@@ -8,6 +8,7 @@ const Nav = () => {
         return (
             <div>
                 <nav className="main-nav">
+
                     <ul>
                         <li>
                             <Link to="/cats">Cats</Link>
