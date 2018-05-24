@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import PhotoList from './PhotoList';
 import NoResults from './NoResults';
-// Create container component that takes in a keyword and api key as props, 
+// Create container component that takes in a keyword and api key as props,
 // and fetches the photos and other required information from the API
 
 class Results extends Component {
@@ -29,7 +29,7 @@ axios.get(`https://api.flickr.com/services/rest/?method=flickr.photos.search&api
   .catch(error => {
     console.log('Error fetching and parsing data', error);
   });
-}
+ }
 }
 componentWillReceiveProps(newProps) {
        this.setState({ keyword: newProps.query });
