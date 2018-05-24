@@ -33,7 +33,7 @@ export default class SearchForm extends Component {
 
                       </button>
                   </form>
-
+<Nav/>
                   <Results query={this.state.query} api={this.props.api} />
               </div>
           );

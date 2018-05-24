@@ -15,7 +15,7 @@ import Sunsets from './Sunsets.js';
 import Dogs from './Dogs.js';
 import SearchForm from './SearchForm.js';
 import Header from './Header.js';
-import Footer from './Footer';
+
 
 //switch ----it returns only the first matching route
 const App = () =>{
@@ -23,8 +23,7 @@ const App = () =>{
     return (
     <BrowserRouter>
       <div className="container">
-      <Header />
-      <Footer />
+          <Header />
           <Switch>
           <Route exact path="/" render={() => (<SearchForm api={apiKey} />)}/>
           <Route path="/cats" render={() => (<Cats api={apiKey} />)} />
@@ -34,6 +33,7 @@ const App = () =>{
           <Redirect to="/" />
         </Switch>
       </div>
+
     </BrowserRouter>
     );
   }
