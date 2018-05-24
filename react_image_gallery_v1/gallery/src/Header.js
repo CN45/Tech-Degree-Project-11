@@ -8,7 +8,6 @@ class Header extends Component {
       <div className="container">
         <h2>Flickr Search</h2>
 
-
       </div>
     );
   }
