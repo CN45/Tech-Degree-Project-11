@@ -24,7 +24,7 @@ const App = () =>{
       <div className="container">
       <Header />
           <Switch>
-          <Route exact path="/" render={() => (<SearchForm api={apiKey} />)}/>
+
           <Route path="/cats" render={() => (<Cats api={apiKey} />)} />
           <Route path="/sunsets" render={() => (<Sunsets api={apiKey} />)} />
           <Route path="/dogs" render={() => (<Dogs api={apiKey} />)} />
