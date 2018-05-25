@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Results from './Results';
 import Nav from './Nav';
+import Results from './Results';
+
 
 
 export default class SearchForm extends Component {
@@ -30,10 +31,9 @@ export default class SearchForm extends Component {
                   <form className="search-form" onSubmit={this.handleSubmit}>
                       <input type="search" name="search" placeholder="Search" onChange={this.onSearchChange} />
                       <button type="submit" className="search-button">
-
                       </button>
                   </form>
-<Nav/>
+                  <Nav/>
                   <Results query={this.state.query} api={this.props.api} />
               </div>
           );
