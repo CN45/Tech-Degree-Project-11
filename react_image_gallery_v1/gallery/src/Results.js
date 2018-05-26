@@ -4,7 +4,8 @@ import PhotoList from './PhotoList';
 import NoResults from './NoResults';
 // Create container component that takes in a keyword and api key as props,
 // and fetches the photos and other required information from the API
-
+// Results.js file uses axios get command to fetch the flickr api data based upon either the button pushed or whatever is input into search form
+//Use keyword this inside contructor, this.state is equal to an object, the state in this app will provide the photos we want to display
 class Results extends Component {
 constructor() {
   super();

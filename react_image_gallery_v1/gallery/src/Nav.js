@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 //The <Link> component allows you to navigate between pages without reloading the whole app
+//this is the navigation component rendered on each page.
 
 
 const Nav = () => {

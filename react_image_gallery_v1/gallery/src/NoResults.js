@@ -1,5 +1,5 @@
 import React from 'react';
-
+//this component is displayed if there are no matching photos to display that match the users input
 const NoResults = () => {
     return (
         <div>

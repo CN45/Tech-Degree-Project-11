@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import Results from './Results';
 
-
+//This is the search form component used to search for a user inputed search query, it's on each page of the app
 
 export default class SearchForm extends Component {
 //search field

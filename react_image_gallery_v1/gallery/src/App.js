@@ -16,6 +16,7 @@ import NoResults from './NoResults';
 
 
 //switch ----it returns only the first matching route
+//These are the routes rendered for each part of the app
 const App = () =>{
 
     return (

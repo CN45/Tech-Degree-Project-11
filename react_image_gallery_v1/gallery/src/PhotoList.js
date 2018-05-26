@@ -3,6 +3,7 @@ import Pic from './Pic';
 
 //Display photos each with unique key
 //server, photo id, photo secret are all from the flickr api docs
+// The title of each image list should be displayed dynamically via "props".
 
 
 const PhotoList = (props) => {
